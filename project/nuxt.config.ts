@@ -2,7 +2,6 @@ import { NuxtConfig } from '@nuxt/types'
 
 
 const nuxtConfig: NuxtConfig = {
-  mode: 'universal',
   target: 'static',
   buildModules: ['@nuxt/typescript-build','@nuxtjs/vuetify'],
   // server: {
