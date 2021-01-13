@@ -10,7 +10,7 @@
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "yarn lint:js",
     "test": "jest",
-    "deploy": "push-dir --dir=dist --branch=main --cleanup"
+    "deploy": "push-dir --dir=dist --branch=main -t --cleanup"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.0",
